@@ -1,0 +1,148 @@
+
+/* 共通 */
+html,body{
+	height: 100%;/*高さを100%にして描画エリアをとる*/
+}
+
+#particles-js{ 
+	position:fixed;/*描画固定*/
+	z-index:-1;/*描画を一番下に*/
+	width: 100%;
+	height: 100%;
+	background-color:white;/*背景色*/
+}
+
+#wrapper{
+	position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+	z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+	width:100%;
+	height: 100%;
+}
+
+
+
+
+/* header start */
+.rogo{
+    /* opacity: 0.8; */
+    float: left;
+    width: 180px;
+    height: 56px;
+    margin-left: 52px;
+    margin-top: 17px;
+    /* border-radius: 50%; */
+    /* margin-top: 10px;
+    margin-left: 15px; */
+    /* border-bottom: 3px rgba(29, 16, 104) solid; */
+}
+
+.header-ui{
+    display: flex;
+	list-style: none;
+}
+
+.header-ui li{
+    padding: 1.3vw 0vw 0vw 1vw;
+	font-size: 1vw;
+	padding-right: 2vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	line-height: 1.2vw;
+}
+
+.header{
+    display: flex;
+	justify-content: space-between;
+	background:white;
+	width: 100%;
+	height: 4vw;
+	position: fixed;
+	z-index: 10px;
+	margin: -0vw 0vw 0vw 0vw ;
+}
+
+.news{
+    color: #6F6F6F;
+}
+
+.news:hover{
+    color: #3D4089;
+}
+
+.news1{
+    position: absolute;
+    width: 0.1vw;
+    height: 1.5vw;
+    margin: 1.1vw 0vw 0vw 5vw;
+    background: #6F6F6F;
+}
+
+.servide{
+    padding: 1.3vw 0.5vw 0vw 0.5vw;
+	line-height: 1.2vw;
+	font-size: 1vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	color: #6F6F6F;
+	text-decoration:none;
+}
+
+.servide:hover{
+    color: #3D4089;
+}
+
+.servide1{
+    position: absolute;
+    width: 0.1vw;
+    height: 1.5vw;
+    margin: 1.1vw 0vw 0vw 11vw;
+    background: #6F6F6F;
+}
+
+.works{
+    margin: 1.3vw 1vw 0vw 1.8vw;
+	line-height: 1.2vw;
+	font-size: 1vw;
+	font-family: kozuka-gothic-pr6n, sans-serif;
+	color: #6F6F6F;
+	text-decoration:none;
+}
+
+.works:hover{
+    color: #3D4089;
+}
+
+.recruit{
+    text-align:center;
+	background-color: #C4C4CA;
+	width: 4vw;
+	height: 2.3vw;
+	color: white;
+}
+
+.recruit:hover{
+    background-color: #6f6f75;
+}
+
+.contact{
+    text-align:center;
+	background-color: #3D4089;
+	width: 50%;
+	height: 2.3vw;
+	color: white;
+}
+
+.contact:hover{
+    background-color: #17183a;
+}
+/* header end */
+
+
+/* footer start */
+.footer {
+    height: 88px;
+    background: #3C3E6F;
+}
+
+.footer p {
+    text-align: center;
+}
+/* footer end */

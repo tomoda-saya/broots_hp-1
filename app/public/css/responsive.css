@@ -1,0 +1,145 @@
+@media(max-width: 1150px) {
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        float: right;
+        margin-right: 15px;
+        display: block;
+        color: rgb(128, 128, 128);
+    }
+}
+
+@media(max-width: 670px) {
+    .wrapper2 {
+        margin: 0px auto;
+    }
+    /* header */
+    .header-left img {
+        /* opacity: 0.8; */
+        float: left;
+        height: 45px;
+        width: 145px;
+        /* border-radius: 50%; */
+        margin-top: 10px;
+        margin-left: 15px;
+        /* border-bottom: 3px rgba(29, 16, 104) solid; */
+    }
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        float: right;
+        margin-right: 15px;
+        display: block;
+        color: rgb(128, 128, 128);
+    }
+    /* top */
+    .top {
+        height: 400px;
+        /* background-color: tomato; */
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .top-left {
+        float: left;
+        margin-left: 25px;
+        margin-top: 10px;
+        font-family: monospace;
+        color: rgba(77, 77, 77);
+    }
+    .top-left h3 {
+        font-size: 20px;
+        font-family: serif;
+    }
+    .top-left img {
+        height: 70%;
+        width: 80%;
+    }
+    .news {
+        margin-top: 100px;
+        border: 1px gray solid;
+    }
+    /* .top-right {
+        float: none;
+    } */
+
+    /* about */
+    .about {
+        /* margin-top: 50px; */
+        padding-top: 0px;
+        /* background-color: yellow; */
+        height: 500px;
+        text-align: center;
+    }
+    .about img {
+        height: 65%;
+        width: 65%;
+    }
+    /* service */
+    .service {
+        /* background-color: thistle; */
+        height: 1500%;
+        margin-top: -50px;
+    }
+    .service_title {
+        height: 40%;
+        width: 40%;
+    }
+    .service_1_a {
+        float: center;
+        width: 110%;
+        margin-top: 20px;
+    }
+    .service_2_a {
+        float: center;
+        float: center;
+        width: 110%;
+        margin-top: 20px;
+    }
+    .service_3_a {
+        float: center;
+        width: 110%;
+        margin-top: 20px;
+    }
+    .btnripple2{
+        /*波紋の基点とするためrelativeを指定*/
+        position: relative;
+        /*波紋の形状*/
+        display:inline-block;
+        background:rgba(29, 16, 104);
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        color:#ccc;
+        outline: none;
+        /*アニメーションの設定*/
+        transition: all 6s;
+    }
+    /* work */
+    .work {
+        margin-bottom: -20px;
+    }
+    .work_title {
+        height: 40%;
+        width: 40%;
+    }
+    .slider {
+        height: 100px;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .map {
+		display: inline-block;
+		margin-top: 70px;
+		top: 300px;
+	}
+    .location_map {
+		padding-top: 200px;
+        text-align: center;
+        margin: 0;
+    }
+    #container{
+		height: 200px;
+	}
+}

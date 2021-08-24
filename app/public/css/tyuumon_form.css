@@ -1,0 +1,116 @@
+
+.wrapper3 {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+.tyuumon_title {
+    width: 500px;
+    height: 70px;
+    margin-bottom: 50px;
+    /* background-color: gray; */
+    display: inline-block;
+    position: relative;
+}
+
+.tyuumon_title_part2 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 0.5vw;
+}
+
+.section_title_part3 {
+    position: absolute;
+    top: 92px;
+    left: 65px;
+    width: 15vw;
+    height: 0.5vw;
+    background: #524B82;
+}
+
+.tyuumon_form {
+    /* color: red; */
+    height: 1650px;
+    padding-top: 50px;
+}
+
+.nomal_navi_1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    /* float: center; */
+    display: inline-block;
+}
+.nomal_navi_2 {
+    width: 100%;
+    display: inline-block;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+.nomal_navi_2 th[scope="row"] {
+    background-color: #d7d9f2;
+}
+.nomal_navi_1 th[scope="row"] {
+    background-color: #f2f2d7;
+}
+textarea {
+    width: 100%;
+}
+/* input {
+    width: 100%;
+} */
+
+caption {
+    padding: 10px;
+    caption-side: top;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.site_name{
+    width: 100%;
+}
+
+.sent {
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 120px;
+    float: left;
+}
+.back {
+    text-align: center;
+    padding: 19px;
+    margin-top: 43.5px;
+    margin-right: 120px;
+    float: right;
+}

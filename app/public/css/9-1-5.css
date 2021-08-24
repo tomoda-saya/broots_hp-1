@@ -1,0 +1,18 @@
+
+.scrollgress{
+	z-index: 3;/*他のposition指定しているエリアより前に出すためz-indexの数字を大きく*/
+	top:70px!important;/* fixedで設置しているheaderの高さよりも下にバーを出す*/
+}
+#header{
+position: fixed;/*Header固定*/
+z-index: 2;
+top:0;
+height: 70px;/*高さ指定*/
+width:100%;
+background:rgba(29, 16, 104);
+}
+
+/*検証用のレイアウトのためのCSS*/
+#container{
+height: 5300px;
+}
