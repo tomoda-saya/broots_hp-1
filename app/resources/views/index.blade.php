@@ -15,7 +15,7 @@
         <!-- top start -->
         <div class="top">
             <div class="top-left">
-                <h3>ITで「心」を繋ぐ…</h3>
+                <h3> ー I T で「心」を繋ぐ ー </h3>
                 <img src="images/make a wedsite.png" alt="make_a_website">
             </div>
             <div id="1" class="top-right">
@@ -38,25 +38,39 @@
                 <p class="section_title_part2" id="1">経営理念</p>
                 <p class="section_title_part3"></p>
             </div>
-            <p class="keieisetumei">コロナ禍により人との物理的距離が</p>
+
+            <div class="about_info">
+                <div class="about_img">
+                    <img src="images/5140621_s.jpg" alt="company_img1">
+                </div>
+                <h1>I T で心を繋ぐ</h1>
+                <p>コロナ禍により人との
+                    物理的距離が
+                    求められる<span>新たな時代</span><br>
+                IT技術によりその離れた距離の分、
+                人と人の距離を縮める<br>
+                そんな社会的役割を担うことを
+                使命として活動しております</p>
+            </div>
+            {{-- <p class="keieisetumei">コロナ禍により人との物理的距離が</p>
             <p class="keieisetumei">求められる新たな時代</p><br>
-            <p class="keieisetumei">IT技術によりその離れた距離の分、</p> 
-            <p class="keieisetumei">人と人との距離を縮める</p> 
+            <p class="keieisetumei">IT技術によりその離れた距離の分、</p>
+            <p class="keieisetumei">人と人との距離を縮める</p>
             <p class="keieisetumei">そんな社会的役割を担うことを</p>
-            <p class="keieisetumei">使命として活動しております</p>
+            <p class="keieisetumei">使命として活動しております</p> --}}
             <p class="saiyou">採用情報</p>
             <p class="saiyou-boder"></p>
             <p class="y1"></p>
             <p class="otoiawase">お問い合わせ</p>
             <p class="otoiawase-boder"></p>
             <p class="y2"></p>
-            <img src="images/yoshiisan.png" class="yoshiisan">
-            <p class="yoshiisyatyou">吉井 良</p>
-            <p class="yoshiisyatyou2">社長</p>
+            {{-- <img src="images/main_image.jpg" class="yoshiisan"> --}}
+            {{-- <p class="yoshiisyatyou">吉井 良</p> --}}
+            {{-- <p class="yoshiisyatyou2">社長</p> --}}
         </div>
         <!-- about end -->
         <!-- service start -->
-        <div class="service">
+        <div class="service" id=2>
             <div class="section_title">
                 <p class="paragraph_line"></p>
                 <p class="section_title_part1">Service</p>
@@ -80,7 +94,7 @@
                             お気軽にお問い合わせください！</p>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="service_part">
                     <div class="service_left_2">
                         <img src="images/apuri.png" class="service_img">
@@ -121,7 +135,7 @@
         </div>
         <!-- service end -->
         <!-- works start -->
-        <div class="works">
+        <div class="works" id=3>
             <div class="section_title">
                 <p class="paragraph_line"></p>
                 <p class="section_title_part1">Works</p>
@@ -130,14 +144,14 @@
             </div>
             <div>
                 <ul class="slider2"> <!--スライド-->
-                    <li><img src="images/no-imges.png" alt="no-imges"></li>
+                    <li><img src="images/no-imges.png" alt="no-imges" width=30px height=30px></li>
                     <li><img src="images/no-imges.png" alt="no-imges"></li>
                     <li><img src="images/no-imges.png" alt="no-imges"></li>
                     <li><img src="images/no-imges.png" alt="no-imges"></li>
                     <li><img src="images/no-imges.png" alt="no-imges"></li>
                     <li><img src="images/no-imges.png" alt="no-imges"></li>
                     <!--/slider-->
-                </ul>    
+                </ul>
             </div>
             <!-- works end -->
         </div>
@@ -155,7 +169,7 @@
     <p class="bak2"></p>
 <!-- info end -->
 </div>
-    
+
 @include('footer')
 
 <!-- </div> wrapper -->
